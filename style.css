@@ -177,7 +177,7 @@ main{
     width: 30%;
 }
 
-img{
+.first_col img{
     width: 15rem;
     height: 5rem;
     object-fit: cover;
@@ -200,13 +200,6 @@ h2+p{
 img+h2{
     font-weight:  600;
     font-size: 1rem;
-
-}
-.second_col img{
-    width: 15rem;
-    height: 10.4rem;
-    object-fit: cover;
-    object-position: 20% 30%;
 }
 hr{
     border: 1px solid #848484;
@@ -238,3 +231,130 @@ hr{
     }
     
 }
+/*--------third pagge-------*/
+.thirdpage{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.thirdpage div+div{
+    flex: 1;
+    padding: 6rem;
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 0px;
+}
+.img{
+    padding-left: 9rem;
+    object-fit: cover;
+    height: 50rem;
+
+}
+.thirdpage h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.thirdpage p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 2.1rem 0 4rem 0;
+
+}
+.thirdpage button{
+    background: transparent;
+    color: black;
+    border: 1px solid #B5BAE0;
+    width: 50%;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    border-radius: 1.5rem;
+    height: 5rem;
+}
+.thirdpage button h4{
+    display: inline;
+    font-weight: 400;
+    text-align: end;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+.thirdpage button img{
+    width: 2rem;
+}
+/*-----fourthpage------*/
+.fourthpage{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fourthpage h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    
+}
+.fourthpage p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 2.1rem 0 4rem 0;
+    
+}
+.fourthpage button{
+    background: transparent;
+    color: black;
+    border: 1px solid #B5BAE0;
+    width: 50%;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    border-radius: 1.5rem;
+    height: 5rem;
+}
+.fourthpage button h4{
+    display: inline;
+    font-weight: 400;
+    text-align: end;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+.fourthpage button img{
+    width: 2rem;
+}
+.fourthpage .img{
+    padding: 0;
+    padding-right: 9rem;
+}
+.fourthpage div+div{
+    padding-top: 10rem;
+    flex: 1;
+    text-align: left;
+    margin-left:16rem;
+}
+@media screen and (max-width:600px) {
+    .thirdpage .img{
+        padding-right: 6rem;
+    }
+    .thirdpage div+div{
+        padding:0;
+        padding-right: 4rem;
+
+    }
+    .fourthpage{
+        display: flex;
+        flex-direction: column;
+    }
+    .fourthpage .img{
+        padding-left: 10rem;
+    }
+    .fourthpage div+div{
+        margin:0;
+        padding-right: 5rem;
+        padding-top: 5rem;
+    }
+    
+}
+
+
+
+
+
