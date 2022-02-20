@@ -114,7 +114,7 @@ p{
     }
     .middle_menu ul{
         padding-left: 6rem;
-        font-size: ;
+        display: none;
     }
     .middle_menu ul li{
         font-size: 0.5rem;
@@ -143,7 +143,16 @@ p{
     .left{
         width: 70%;
         margin: 0 auto;
+        text-align: center;
+        padding: 15%;
     }
+    .left h1{
+        font-size: 2rem;
+    }
+    .left p{
+        font-size: 0.7rem;
+        letter-spacing: 0.05rem;
+        
 
 }
 
