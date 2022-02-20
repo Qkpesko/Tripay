@@ -303,12 +303,15 @@ hr{
     background: transparent;
     color: black;
     border: 1px solid #B5BAE0;
-    width: 50%;
+    width: 70%;
     align-items: center;
     padding: 1rem;
     display: flex;
     border-radius: 1.5rem;
     height: 5rem;
+    text-align: center;
+    padding-left: 3.2rem;
+
 }
 .fourthpage button h4{
     display: inline;
@@ -373,8 +376,125 @@ hr{
         text-align: center;
         padding: 0;
     }
+    .thirdpage button{
+        padding: 0;
+        width: 8rem;
+        justify-content: space-between;
+        padding: 1rem;
 
 }
+/*--------footer-------*/
+.mini_box{
+    width: 35%;
+    margin: 0 auto;
+    background-color: #3C50E0;
+    padding: 2rem 0 2rem 0;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+.mini_box h1{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.mini_box p{
+    color: #E8E8E8;
+    font-weight: 400;
+}
+.smallinput{
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: #FCFCFC;
+    width: 70%;
+    margin: 0 auto;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem;
+}
+
+.smallinput label{
+    font-size: 0.5rem;
+    background-color: #141E6C;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.smallinput input{
+    font-size: 0.5rem;
+    color: #989898;
+    flex: 1;
+    padding-left: 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+@media screen and (max-width:600px) {
+    .mini_box{
+        width: 80%
+    };
+    
+}
+
+.footer{
+    width: 100%;
+    background-color: #3C50E0;
+    display: flex;
+    margin-top: 2rem;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_row .logo h1{
+    color: white;
+}
+.footer_row p{
+    color: #E8E8E8;
+    line-height: 1.5rem;
+}
+
+.footer_row1{
+    color: #E8E8E8;
+    padding-top: 0.7rem;
+    
+}
+.footer_row1 h4{
+    font-weight: 600;
+}
+.footer_row1 ul{
+    list-style: none;
+    padding: 0;
+}
+.footer_row1 ul li{
+    font-size: 0.7rem;
+    padding-bottom: 0.5rem;
+}
+.bella{
+    padding-top: 4rem;
+}
+
+@media screen and (max-width:600px) {
+    .footer_row1 ul li{
+        font-size: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .footer_row{
+        padding-top: 1.3rem;
+    }
+    .footer_row img{
+        width: 1rem;
+    }
+    .bella{
+        padding-top: 1rem;
+    }
+}
+
+
 
 
 
