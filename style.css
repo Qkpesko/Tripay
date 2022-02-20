@@ -336,8 +336,8 @@ hr{
     }
     .thirdpage div+div{
         padding:0;
-        padding-right: 4rem;
         text-align: center;
+        padding: 5rem 5rem 0 5rem;
 
     }
     .fourthpage{
@@ -349,8 +349,7 @@ hr{
     }
     .fourthpage div+div{
         margin:0;
-        padding-right: 5rem;
-        padding-top: 5rem;
+        padding: 5rem 5rem 0 5rem;
     }
     .fourthpage h1{
         text-align: center;
