@@ -381,6 +381,7 @@ hr{
         width: 8rem;
         justify-content: space-between;
         padding: 1rem;
+    }
 
 }
 /*--------footer-------*/
@@ -433,7 +434,7 @@ hr{
 @media screen and (max-width:600px) {
     .mini_box{
         width: 80%
-    };
+    }
     
 }
 
