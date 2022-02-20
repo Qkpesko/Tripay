@@ -337,6 +337,7 @@ hr{
     .thirdpage div+div{
         padding:0;
         padding-right: 4rem;
+        text-align: center;
 
     }
     .fourthpage{
@@ -351,7 +352,20 @@ hr{
         padding-right: 5rem;
         padding-top: 5rem;
     }
-    
+    .fourthpage h1{
+        text-align: center;
+    }
+    .fourthpage p{
+        text-align: center;
+    }
+    button.store{
+        margin: auto;
+        height: 3rem;
+      }
+    button.store h4{
+        font-size: 0.6rem;  
+    }
+
 }
 
 
