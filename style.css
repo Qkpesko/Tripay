@@ -354,21 +354,31 @@ p{
     font-size: 1rem;
     margin: 2.1rem 0 4rem 0;
 }
-}
+
 .fourthpage button{
     background: transparent;
     color: black;
     border: 1px solid #B5BAE0;
-    width: 70%;
+    height: 4rem;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
     align-items: center;
-    padding: 1rem;
+    font-weight: 400;}
+
+    /*
+    align-items: center;
+    
     display: flex;
     border-radius: 1.5rem;
-    height: 5rem;
+    
     text-align: center;
-    padding-left: 3.2rem;
+    
 
-}
+}*/
 .fourthpage button h4{
     display: inline;
     font-weight: 400;
