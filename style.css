@@ -175,11 +175,12 @@ p{
         margin-top: 1rem;
         background: white;
         color: #3C50E0;
+        width: 6rem;
 
     }
    
     p{
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: 500;
         color: #848484;
     }
@@ -198,7 +199,7 @@ p{
         letter-spacing: 0.05rem;
     }
     .text_area button{
-        width: 7rem;
+        width: 10rem;
         height: 2.5rem;
         font-size: 1rem;
         margin-top: 2rem;
@@ -293,9 +294,9 @@ p{
 
 .thirdpage div+div{
     flex: 1;
-    padding: 6rem;
+    padding: 8rem;
     text-align: left;
-    padding-left: 0;
+    padding-left: 5rem;
     padding-bottom: 0px;
 }
 .img{
@@ -339,20 +340,24 @@ p{
 .fourthpage{
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
    
 }
 .fourthpage h1{
     font-weight: 600;
     font-size: 2rem;
-    
 }
-    
+
+}
+.fourthpage .img{
+    margin-right: 2rem;
+}
 }
 .fourthpage p{
     font-weight: 400;
     font-size: 1rem;
     margin: 2.1rem 0 4rem 0;
-}
 }
 .fourthpage button{
     background: transparent;
@@ -396,19 +401,25 @@ p{
         padding-right: 5rem;
         width: 50%;
     }
+    .fourthpage .joloko{
+        padding-left: 9rem;
+        margin-top: 8rem;
 }
   
 
 
 
 @media screen and (max-width:600px) {
+    .thirdpage{
+        align-items: center;
+    }
     .thirdpage .img{
         padding-right: 6rem;
     }
     .thirdpage div+div{
         padding:0;
         text-align: center;
-        padding: 5rem 5rem 0 5rem;
+        padding-left: 5rem;
 
     }
     .fourthpage .img{
@@ -419,21 +430,21 @@ p{
         flex-direction: column;
     }
     .fourthpage .img{
-        padding-left: 10rem;
+        padding-left: 1rem;
     }
     .fourthpage div+div{
         margin:0;
-        padding: 5rem 5rem 0 5rem;
+        padding: 5rem 0rem 0 10rem;
     }
     .fourthpage h1, .thirdpage h1{
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding: 0 auto;
         margin-top: 0;
     }
     .fourthpage p, .thirdpage p{
         text-align: center;
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     button.store{
         height: 3rem;
@@ -504,7 +515,9 @@ p{
 
 @media screen and (max-width:600px) {
     .mini_box{
-        width: 80%
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
     .smallinput{
         display: flex;
@@ -563,7 +576,7 @@ p{
 
 @media screen and (max-width:600px) {
     .footer_row1 ul li{
-        font-size: 0.5rem;
+        font-size: 1rem;
         padding-bottom: 0.5rem;
     }
     .footer_row{
@@ -581,6 +594,10 @@ p{
         margin: 0 auto;
         width: 50%;
         text-align: center;
+    }
+    .footer h4{
+        margin: 0;
+        margin-top: 3rem;
     }
 }
 
