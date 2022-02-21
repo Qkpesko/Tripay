@@ -118,7 +118,7 @@ p{
     }
 
     html, body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .middle_menu{
         display: block;
