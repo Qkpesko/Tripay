@@ -340,20 +340,26 @@ p{
 .fourthpage{
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
    
 }
 .fourthpage h1{
     font-weight: 600;
     font-size: 2rem;
-    
 }
-    
+.fourthpage .joloko{
+    margin-left: 15rem;
+    margin-top: 8rem;
+}
+.fourthpage .ing{
+    margin-right: 10rem;
+}
 }
 .fourthpage p{
     font-weight: 400;
     font-size: 1rem;
     margin: 2.1rem 0 4rem 0;
-}
 }
 .fourthpage button{
     background: transparent;
