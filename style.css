@@ -6,6 +6,9 @@ html, body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+body{
+    position: relative;
+}
 
 header{
     width: 95%;
