@@ -349,7 +349,7 @@ p{
     font-size: 2rem;
 }
 .fourthpage .joloko{
-    margin-left: 8rem;
+    margin-left: rem;
     margin-top: 8rem;
 }
 .fourthpage .img{
@@ -426,7 +426,7 @@ p{
         flex-direction: column;
     }
     .fourthpage .img{
-        padding-left: 10rem;
+        padding-left: 1rem;
     }
     .fourthpage div+div{
         margin:0;
