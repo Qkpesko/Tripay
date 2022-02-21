@@ -116,6 +116,13 @@ p{
         display: flex;
         flex-direction: column;
     }
+    nav{height: auto;
+    }
+
+    .logo h1{
+        margin: 0;
+        font-size: 2rem;
+    }
     .middle_menu{
         display: block;
         position: absolute;
@@ -181,6 +188,7 @@ p{
         margin: 0 auto;
         text-align: center;
         padding: 15%;
+        padding-top: 10%;
     }
     .left h1{
         font-size: 3rem;
