@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tripay</title>
 </head>
 <header>
@@ -16,7 +17,8 @@
         <div class="logo">
             <h1>Tripay</h1>
         </div>
-        <div class="middle_menu">
+        <div class="middle_menu" id=navLinks>
+            <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
                 <li>Business</li>
                 <li>Pricing</li>
@@ -28,14 +30,16 @@
                 <p>Log in</p>
                 <button>Sign Up</button>
             </div>
+           
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     <!-----Text Area------>
     <div class="text_area">
         <div class="left">
             <h1>Banking Should<br>
                 Be Easy.</h1>
-            <p>financial transactions without internet using<br> a mobile device such as a smartphone or<br> tablet with
+            <p>Financial transactions without internet using<br> a mobile device such as a smartphone or<br> tablet with
                 bluetooth. </p>
             <button>Get Started</button>
         </div>
@@ -98,12 +102,12 @@
 </main>
 <!-------fourth page-------->
 <main class="fourthpage">
-    <div class="img">
+    <div class="img jolokos">
         <img src="images/Group 1000001394.png">
     </div>
-    <div>
+    <div class="joloko">
         <h1>Connecting all<br>your banking<br>needs</h1>
-        <p>financial transactions remotely<br>using a mobile device such as a<br> smartphone or tablet</p>
+        <p>Financial transactions remotely<br>using a mobile device such as a<br> smartphone or tablet</p>
         <button class="store">
             <h4>Get Started</h4>
         </button>
@@ -113,7 +117,7 @@
 <footer>
     <div class="mini_box">
         <h1>Subscribe Newsletter</h1>
-        <p>financial transactions without interet using a mobile device such as<br> a smartphone or tablet with
+        <p>Financial transactions without interet using a mobile device such as<br> a smartphone or tablet with
             bluetooth.
         </p>
         <div class="smallinput">
@@ -127,7 +131,7 @@
                 <div class="logo">
                     <h1>Tripay</h1>
                 </div>
-                <p>financial transactions without<br> interet using a mobile device<br> such as a smartphone or<br>
+                <p>Financial transactions without<br> interet using a mobile device<br> such as a smartphone or<br>
                     tablet with
                     bluetooth. </p>
                 <div class="soshomedium">
@@ -135,7 +139,6 @@
                     <img src="images/Group 1146.png">
                     <img src="images/Layer 1.png">
                 </div>
-                <p class="bella">Copyright © 2021 Tripay</p>
             </div>
             <div class="footer_row1">
                 <h4>Tripay</h4>
@@ -163,8 +166,20 @@
                 </ul>
             </div>
         </div>
+        <p class="bella">Copyright © 2021 Tripay</p>
     </div>
 </footer>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
 
 <body>
 
