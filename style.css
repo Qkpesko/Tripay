@@ -175,11 +175,12 @@ p{
         margin-top: 1rem;
         background: white;
         color: #3C50E0;
+        width: 6rem;
 
     }
    
     p{
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: 500;
         color: #848484;
     }
@@ -427,13 +428,13 @@ p{
     }
     .fourthpage h1, .thirdpage h1{
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding: 0 auto;
         margin-top: 0;
     }
     .fourthpage p, .thirdpage p{
         text-align: center;
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     button.store{
         height: 3rem;
