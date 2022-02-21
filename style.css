@@ -116,10 +116,6 @@ p{
         display: flex;
         flex-direction: column;
     }
-
-    html, body{
-        overflow-x: hidden;
-    }
     .middle_menu{
         display: block;
         position: absolute;
