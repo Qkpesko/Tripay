@@ -294,9 +294,9 @@ p{
 
 .thirdpage div+div{
     flex: 1;
-    padding: 8rem;
+    padding: 6rem;
     text-align: left;
-    padding-left: 5rem;
+    padding-left: 0;
     padding-bottom: 0px;
 }
 .img{
@@ -340,24 +340,20 @@ p{
 .fourthpage{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: flex-start;
    
 }
 .fourthpage h1{
     font-weight: 600;
     font-size: 2rem;
+    
 }
-
-}
-.fourthpage .img{
-    margin-right: 2rem;
-}
+    
 }
 .fourthpage p{
     font-weight: 400;
     font-size: 1rem;
     margin: 2.1rem 0 4rem 0;
+}
 }
 .fourthpage button{
     background: transparent;
@@ -401,25 +397,19 @@ p{
         padding-right: 5rem;
         width: 50%;
     }
-    .fourthpage .joloko{
-        padding-left: 9rem;
-        margin-top: 8rem;
 }
   
 
 
 
 @media screen and (max-width:600px) {
-    .thirdpage{
-        align-items: center;
-    }
     .thirdpage .img{
         padding-right: 6rem;
     }
     .thirdpage div+div{
         padding:0;
         text-align: center;
-        padding-left: 5rem;
+        padding: 5rem 5rem 0 5rem;
 
     }
     .fourthpage .img{
@@ -430,11 +420,11 @@ p{
         flex-direction: column;
     }
     .fourthpage .img{
-        padding-left: 1rem;
+        padding-left: 10rem;
     }
     .fourthpage div+div{
         margin:0;
-        padding: 5rem 0rem 0 10rem;
+        padding: 5rem 5rem 0 5rem;
     }
     .fourthpage h1, .thirdpage h1{
         text-align: center;
@@ -515,9 +505,7 @@ p{
 
 @media screen and (max-width:600px) {
     .mini_box{
-        width: 60%;
-        margin: 0 auto;
-        margin-top: 2rem;
+        width: 60%
     }
     .smallinput{
         display: flex;
@@ -594,10 +582,6 @@ p{
         margin: 0 auto;
         width: 50%;
         text-align: center;
-    }
-    .footer h4{
-        margin: 0;
-        margin-top: 3rem;
     }
 }
 
